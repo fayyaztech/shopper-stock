@@ -18,6 +18,10 @@ class Home extends BaseController
     {
         return view('front/signup');
     }
+    function store()
+    {
+        return view('front/store');
+    }
     public function index(): string
     {
         return view('welcome_message');
