@@ -9,6 +9,6 @@ class Dashboard extends BaseController
 {
     public function index()
     {
-        return "Dashboard";
+        return "<a href='/logout'>logout</a>";
     }
 }
