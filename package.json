@@ -1,0 +1,22 @@
+{
+  "name": "shopper-stock",
+  "version": "1.0.0",
+  "description": "## What is CodeIgniter?",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+ "scripts": {
+  "build": "npx tailwindcss -i row.css -o public/css/style.css --minify",
+  "watch": "npx tailwindcss -i row.css -o public/css/style.css --watch"
+}
+,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^4.0.3"
+  }
+}
