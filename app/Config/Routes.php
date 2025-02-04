@@ -9,6 +9,14 @@ $routes->get('/', 'Home::main');
 $routes->get('/login', 'Home::login');
 $routes->get('/signup', 'Home::signup');
 $routes->get('/store', 'Home::store');
+$routes->get('/logout', 'Operations::logout');
+
+
+//login routes
+$routes->group('dashboard', ['filter' => 'login'], function ($routes) {
+    $routes->get('/', 'Dashboard::index');
+    // Add other dashboard-related routes here
+});
 
 //handle data routes
 $routes->post('/signup', 'Operations::createStore');
