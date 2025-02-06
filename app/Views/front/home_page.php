@@ -54,7 +54,7 @@
                 <div
                     class="rounded-lg shadow-lg overflow-hidden relative h-36 hover:scale-105 hover:shadow-xl transition-transform duration-300">
                     <img src="/images/stores/4.jpg" alt="Store 1" class="w-full h-full object-cover">
-                    <a href="/shop-details.html">
+                    <a href="/store">
                         <div
                             class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent flex items-center justify-center">
                             <span class="text-white text-lg font-semibold">Mobile Galaxy</span>
@@ -158,17 +158,17 @@
 
 <div id="footer"
     class="w-full bg-teal-600 h-20 flex justify-around content-center place-items-center sticky bottom-0 rounded-t-3xl">
-    <a href="#">
-        <i class="fa-solid fa-house text-white font-extrabold text-5xl"></i>
+    <a href="#" class="text-white text-center">
+    <i class="fa-solid fa-house text-white font-extrabold text-5xl"></i> <br>Home
     </a>
-    <a href="#">
-        <i class="fa-solid fa-list text-white font-extrabold text-5xl"></i>
+    <a href="/category" class="text-white text-center">
+        <i class="fa-solid fa-list text-white font-extrabold text-5xl"></i> <br>Categories
     </a>
-    <a href="/login">
-        <i class="fa-solid fa-user-tie text-white font-extrabold text-5xl"></i>
+    <a href="/login" class="text-white text-center">
+        <i class="fa-solid fa-user-tie text-white font-extrabold text-5xl"></i> <br>User
     </a>
-    <a href="#">
-        <i class="fa-solid fa-circle-info text-white font-extrabold text-5xl"></i>
+    <a href="#" class="text-white text-center">
+        <i class="fa-solid fa-circle-info text-white font-extrabold text-5xl"></i> <br>Help
     </a>
 </div>
 <!-- footer ends here -->
