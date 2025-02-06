@@ -122,7 +122,15 @@ nb-configuration.xml
 # Visual Studio Code
 .vscode/
 
+# Add lines for missing nodes in .gitignore
 /results/
 /phpunit*.xml
 app/Config/Images.php
 node_modules/*
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.nyc_output/
+coverage/
+.cache
+.parcel-cache
