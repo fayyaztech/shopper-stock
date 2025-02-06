@@ -10,6 +10,7 @@
 </head>
 
 <body class="font-times font-medium">
+    
     <div class="bg-gray-50 text-center">
         <div class="rounded-b-2xl bg-teal-600 px-4 pt-6 pb-4 text-white w-full">
             <h1 id="top" class="mb-2 `md:text-4xl text-3xl font-extrabold">
@@ -146,22 +147,25 @@
             Thanks for visiting Hanfis Collection
         </h1>
     </div>
+
     <!-- footer starts here -->
 
     <div id="footer" class="w-full bg-teal-600 h-20 flex justify-around content-center place-items-center sticky bottom-0 rounded-t-3xl">
-        <a href="top" class="text-white text-center">
+        <a href="#" target="_top" class="text-white text-center">
             <i class="fa-solid fa-house text-white font-extrabold text-5xl"></i> <br>Home
         </a>
-        <a href="products" class="text-white text-center">
+        <a href="#products" class="text-white text-center">
             <i class="fa-solid fa-list text-white font-extrabold text-5xl"></i>
             <br> Products
         </a>
-        <a href="help" class="text-white text-center">
+        <a href="#help" class="text-white text-center">
             <i class="fa-solid fa-circle-info text-white font-extrabold text-5xl"></i>
             <br> Help
         </a>
     </div>
+
     <!-- footer ends here -->
+
 </body>
 
 </html>
