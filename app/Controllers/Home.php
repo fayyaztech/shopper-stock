@@ -88,9 +88,17 @@ class Home extends BaseController
         ];
         return view('front/category',$data);
     }
+    function addProducts()
+    {
+        return view('front/add_products');
+    }
+    function dashboard()
+    {
+        return view('front/dashboard');
+    }
     function products()
     {
-        return view('front/products');
+        return view('front/product_list');
     }
     //leave below dont edit
     public function index(): string
